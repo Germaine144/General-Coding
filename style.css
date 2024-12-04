@@ -76,12 +76,9 @@ header{
 td{
     padding: 15px 12px;
 }
-td i{
-    display: flex;
-    justify-content: space-between;
-}
+
 tr{
-    padding: 30px 8px ;
+    padding: 30px 30px ;
     display: inline;
     margin: 30px 35px;
    
