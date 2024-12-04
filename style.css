@@ -43,3 +43,25 @@ border-radius: 50px;
     top: 50%;
     margin: 10px;
  }
+ .start-cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+
+}
+.start-cards i,div {
+    flex: 1;
+    padding: 20px ;
+    color: #fff;
+    text-align: center;
+
+}
+.card.red { background-color: #e74c3c; }
+.card.blue { background-color: #3498db; }
+.card.green { background-color: #2ecc71; }
+.card.orange { background-color: #f39c12; }
+
+.table{
+    display: block;
+    text-align: left;
+}
