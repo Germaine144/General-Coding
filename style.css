@@ -15,13 +15,13 @@ section{
     margin-top: 40px;
 }
 #navbar{
-    background-color: rgb(253, 247, 247);
+    background-color: white;
     width: 100%;
-    border-radius: 1px solid;
+    border-radius: ;
 }
 #navbar li{
    color: gray;
-   border-top: 1px solid black;
+   border-top: ;
    list-style: none;
 
 }
@@ -61,7 +61,47 @@ border-radius: 50px;
 .card.green { background-color: #2ecc71; }
 .card.orange { background-color: #f39c12; }
 
+header{
+    color: black;
+    margin: 10px;
+    
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
 .table{
-    display: block;
-    text-align: left;
+ padding-left: 16px;
+ box-sizing: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+
+}
+.sec{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+    margin: 70px;
+}
+.sec img{
+   width: 30%;
+}
+@media only screen and (min-width:815px){
+    body{
+        flex-direction: row;
+    }
+    #navbar{
+        width: 450px;
+        position: fixed;
+        height: 100%;
+        resize: horizontal;
+        overflow-x: scroll;
+    }
+    #main{
+        margin: 0 20px;
+        margin-left: 350px;
+        max-width: fit-content;
+        
+    }
 }
