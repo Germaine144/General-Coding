@@ -100,9 +100,9 @@ tr{
         flex-direction: row;
     }
     #navbar{
-        width: 400px;
+        width: 300px;
         position: fixed;
-        height: %;
+        height: 100%;
         resize: horizontal;
         
     }
